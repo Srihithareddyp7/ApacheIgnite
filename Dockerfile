@@ -13,6 +13,6 @@ RUN     mv apache-ignite-fabric-2.6.0-bin IGNITE-2_6
 RUN chmod +x $IGNITE_HOME/bin/ignite.sh
 
 
-CMD $IGNITE_HOME/bin/ignite.sh examples/config/example-ignite.xml
+CMD $IGNITE_HOME/bin/ignite.sh 
 
 EXPOSE 11211 47100 47500 49112
