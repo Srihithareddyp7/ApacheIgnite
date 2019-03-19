@@ -15,5 +15,3 @@ RUN chmod +x $IGNITE_HOME/bin/ignite.sh
 
 CMD $IGNITE_HOME/bin/ignite.sh
 
-EXPOSE 11211 47100 47500 49112
-
